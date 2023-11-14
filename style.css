@@ -99,7 +99,7 @@ body {
 #hello {
   font-size: 100px;
   margin-left: -10px;
-  font-family: "Edu TAS Beginner", cursive;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -158,7 +158,7 @@ body {
 }
 
 #button-1:hover {
-  background-color:black;
+  background-color:white;
   transition: all;
   transition-duration: 500ms;
 }
@@ -232,6 +232,13 @@ a {
   padding-left: 100px;
   padding-right: 100px;
 }
+@media (max-width:768px) {
+  #year{
+    gap:20px;
+  }
+  
+}
+
 
 #date {
   margin-top: 5px;
@@ -244,3 +251,224 @@ a {
 #education{
   font-family:"Noto Sans", sans-serif;
 }
+@media (max-width:768px) {
+  #education{
+    font-size:40px;
+  }
+  
+}
+#infobox{
+  display:flex;
+  flex-direction: column;
+}
+#liness{
+  max-width: 300px;
+  font-size: 20px;
+}
+@media (max-width:768px) {
+  #liness{
+    font-size:25px;
+    max-width:440px;
+  }
+  
+}
+#skills{
+  font-family:"Noto Sans", sans-serif;
+}
+@media (max-width:768px) {
+  #skills{
+    font-size:40px;
+  }
+  
+}
+#list{
+  font-size:20px;
+}
+#divv{
+  display:flex;
+  flex-direction:column;
+}
+#certificates{
+  font-family:"Noto Sans", sans-serif;
+}
+@media (max-width:768px) {
+  #certificates{
+    font-size:40px;
+  }
+  
+}
+#contact-header{
+  text-decoration: none;
+}
+#internship{
+  font-size:30px;
+}
+@media (max-width:768px) {
+  #internship{
+    font-size:30px;
+  }
+  
+}
+#internshipps{
+  font-family:"Noto Sans", sans-serif;
+}
+@media (max-width:768px) {
+  #internshipps{
+    font-size:40px;
+  }
+  
+}
+
+#tagline2{
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  font-family: 'Caveat', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+margin-bottom: 50px;
+
+}
+
+@media (max-width:768px) {
+  #tagline2{
+      font-size: 13px;
+  }
+  
+}
+
+#contact-main{
+  padding: 60px;
+  display:flex;
+justify-content: center;
+width:100%;
+}
+
+#contact-phone{
+  font-size: 30px;
+  font-family: 'Caveat', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-weight: 550;
+margin-left: 5px;
+
+}
+
+@media (max-width:768px) {
+    #contact-phone{
+        font-size: 25px;
+    }
+    
+}
+
+#contact-email{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-weight: 550;
+margin-left: 5px;
+}
+@media (max-width:768px) {
+  #contact-email{
+      font-size: 25px;
+  }
+  
+}
+
+#contact-number{
+  font-size: 25px;
+  
+
+}
+
+@media (max-width:768px) {
+#contact-number{
+  font-size:20px;
+}
+}
+
+#contact-mail{
+  font-size: 25px;
+
+}
+@media (max-width:768px) {
+  #contact-mail{
+      font-size:20px;
+  }
+}
+#call-logo{
+  height: 25px;
+  width: 25px;
+}
+@media (max-width:768px) {
+  #call-logo{
+      height: 21px;
+      width: 21px;
+  }
+  
+}
+
+#call{
+  display: flex;
+  align-items: center;
+  
+}
+
+#mail{
+  display: flex;
+  align-items: center;
+  
+}
+#email-logo{
+  height:25px ;
+  width: 25px;
+  margin-top:20px ;
+}
+
+@media (max-width:768px) {
+  #email-logo{
+      height: 21px;
+      width: 21px;
+  }
+  
+}
+
+#div1{
+  height: 300px;
+  width: 40%;
+  padding: 70px;
+}
+
+@media (max-width:768px) {
+  #div1{
+      height: 200px;
+  }
+  
+}
+
+#div2{
+  height:300px ;
+  width: 60%;
+  
+}
+
+#maindivforhalf{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#div1 {
+        background-color: #f0f0f0; /* Optional: Add a background color to div1 for better visibility */
+    }
+    
